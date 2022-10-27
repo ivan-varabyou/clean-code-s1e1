@@ -19,7 +19,8 @@
 
 @media (max-width: 768px) {
 
-  .detail { text-align: center;
+  .detail {
+    text-align: center;
   }
 
 }
@@ -28,7 +29,9 @@
   width: 500px;
   margin: 0 auto;
 }
-.add-task__text,.item__label,.item__text
+.add-task__text,
+.item__label,
+.item__text
  {
   width: 56%;
   display: inline-block;
@@ -45,10 +48,16 @@
 .item, .title {
   list-style: none;
 }
-.add-task__text,.add-task__button,.item__checkbox,.item__text,.item__button {
+.add-task__text,
+.add-task__button,
+.item__checkbox,
+.item__text,.item__button
+{
   outline: none;
 }
-.add-task__button,.item__button {
+.add-task__button,
+.item__button
+{
   background: none;
   border: 0px;
   color: #888;
@@ -58,11 +67,15 @@
   cursor: pointer;
   vertical-align: middle;
 }
-.add-task__button:hover,.item__button:hover {
+.add-task__button:hover,
+.item__button:hover
+{
   color: #3a3a3a;
 }
 /* Heading */
-.title,.add-task__label {
+.title,
+.add-task__label
+{
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -71,7 +84,9 @@
   margin: 0;
   text-transform: uppercase;
 }
-.add-task__text,.item__text {
+.add-task__text,
+.item__text
+{
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -83,7 +98,9 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-task__text:focus,.item__text:focus {
+.add-task__text:focus,
+.item__text:focus
+{
   color: #333;
 }
 
