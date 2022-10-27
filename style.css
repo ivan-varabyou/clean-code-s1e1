@@ -170,3 +170,7 @@
   margin: 0;
   padding: 0;
 }
+
+.add-task__title {
+  border: unset;
+}
