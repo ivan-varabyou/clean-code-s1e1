@@ -196,12 +196,12 @@ for (var i=0; i<completedTasksHolder.children.length;i++){
 
 function addClassCompletedTasks() {
     var completedTasksHolderLabel=completedTasksHolder.querySelectorAll('label');
-    completedTasksHolderLabel.forEach((item) => item.classList.add('completed-task__label'))
+    completedTasksHolderLabel.forEach((item) => item.classList.add('item__label--completed'))
 }
 
 function removeClassNotCompletedTasks() {
     var incompleteTaskHolderLabel=incompleteTaskHolder.querySelectorAll('label');
-    incompleteTaskHolderLabel.forEach((item) => item.classList.remove('completed-task__label'))
+    incompleteTaskHolderLabel.forEach((item) => item.classList.remove('item__label--completed'))
 }
 
 
